@@ -1,0 +1,15 @@
+.del-container {
+  margin: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.nav-item-active {
+  background-color: #ddd;
+}

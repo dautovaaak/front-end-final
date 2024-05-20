@@ -1,0 +1,30 @@
+.f-container {
+  margin: 30px;
+}
+
+h2 {
+  margin: 0;
+  color: #000;
+}
+
+ul {
+  background-color: #fff;
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+/* Add custom styling for the dropdown menu */
+.f-item {
+  cursor: pointer; /* Change cursor to pointer when hovering over questions */
+}
+
+/* Add hover effect to highlight the interactive nature */
+.f-item:hover {
+  background-color: #dcdcdc;
+}
+
+/* Align dropdown items vertically */
+.f-item {
+  display: block; /* Display list items as block elements */
+  margin-bottom: 10px; /* Add spacing between items */
+}

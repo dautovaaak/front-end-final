@@ -1,0 +1,171 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  border-radius: 8px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 70%; /* Change from 70% to 50% */
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: black; /* Change the color as needed */
+  font-size: 24px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+
+
+
+.search-sort-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Align to the left */
+  align-items: center; /* Center vertically */
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  gap: 0;
+}
+
+/* Adjust the width and margin-right of the search container */
+.search-container {
+  position: relative;
+  width: 300px; /* Adjust the width as needed */
+  margin-right: 20px; /* Add some space between search and sort */
+}
+
+/* Remove the margin-left from the sort container */
+
+
+.search-container input {
+    padding: 8px;
+    width: 100%; /* Adjust padding */
+    box-sizing: border-box;
+    border-radius: 25px; /* Add border-radius for rounded corners */  
+    margin-top: 25px;
+}
+
+.clear-icon {
+  position: absolute;
+  top: 80%;
+  right: 8px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.so {
+  display: flex;
+  flex-direction: row;
+  width: 30%; /* Adjust the width as needed */
+  
+}
+
+.sort-container {
+  margin-top: 10px;
+  position: relative;
+}
+
+
+.sort-label {
+  margin-bottom: 5px;
+  margin-right: 50px;
+}
+
+.sort-button {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 10px;
+}
+
+.sort-button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.banner-container {
+  width: 100%; /* Change from 80% to 100% */
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner-container img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  animation: fade 1s ease-in-out; /* добавить анимацию */
+}
+
+
+.skin {
+  width: 80%;
+}
+
+.perfume {
+  width: 80%;
+}
+
+.makeup {
+  width: 80%;
+}
+.bestsellers-label {
+  margin-top: 50px; 
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 50px;
+  margin-top: 20px; 
+}
+
+
+.product-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
